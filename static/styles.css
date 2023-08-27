@@ -1,0 +1,37 @@
+.titleStyle {
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: lightslategray;
+    font-size: 36px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.para,
+.aboutPara,
+.linkStyle {
+    font-size: 18px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.para {
+    text-align: center;
+    padding: 10px;
+}
+
+.aboutPara {
+    box-sizing: border-box;
+    width: 68%;
+    border: 2px solid black;
+    border-radius: 5px;
+    float: left;
+    padding: 2px;
+}
+
+.aboutImg {
+    box-sizing: border-box;
+    width: 30%;
+    float: right;
+    padding: 2px;
+}

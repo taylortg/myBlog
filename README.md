@@ -1,1 +1,2 @@
 # myBlog
+This is my attempt at a blog to document my adventure into learning how to develope a website. By publishing it I think this will hold me accountable. The end goal with this project is to make weekly updates where even if I learn one new feature or trick that will be considered a success.
