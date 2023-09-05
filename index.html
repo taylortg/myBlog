@@ -5,17 +5,35 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Homepage</title>
         <link rel="stylesheet" href="./static/styles.css">
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
     </head>
 
     <body>
-        <div class="linkStyle">
-            <a href="./pages/about.html">About Me</a><br>
+        <!--Navigation bar-->
+        <div class="navbar">
+            <a href="index.html">Home</a>
+            <a href="./pages/about.html">About</a>
+            <div class="dropdown">
+                <button class="dropbtn">Weekly Progress
+                    <i class="fa fa-caret-dpwm"></i>
+                </button>
+                <div class="dropdown-content">
+                    <a href="./pages/week082823.html">Week 1</a>
+                    <a href="./pages/week090523.html">Week 2</a>
+                </div>
+            </div>
         </div>
+        <!--end of Navigation bar-->
+
         <div>
             <h1 class="titleStyle">Homepage</h1>
         </div>
-        <div class="linkStyle">
+        <div class="linkStyle" width=300 height = 300>
             <a href="./pages/week082823.html">Week 1 (08/28/23):</a> Learning the basic of HTML and CSS<br>
         </div>
+        <div class="linkStyle">
+            <a href="./pages/week090523.html">Week 2 (09/05/23):</a> Adding the navigation bar and simple graphics<br>
+        </div>
+
     </body>
 </html>
